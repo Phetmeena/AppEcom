@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+    <item
+        android:id="@+id/menu_home"
+        android:icon="@drawable/ic_baseline_home_24"
+        android:title="Trang chủ"
+        app:showAsAction="withText" />
+
+    <item
+        android:id="@+id/menu_cart"
+        android:icon="@drawable/ic_baseline_shopping_cart_24"
+        android:title="Giỏ hàng"
+        app:showAsAction="withText" />
+
+    <item
+        android:id="@+id/menu_shop"
+        android:icon="@drawable/ic_baseline_shopping_basket_24"
+        android:title="Mua hàng"
+        app:showAsAction="withText" />
+
+    <item
+        android:id="@+id/menu_filter"
+        android:icon="@drawable/icons8_filter_mail"
+        android:title="Bộ lọc"
+        app:showAsAction="withText" />
+
+    <item
+        android:id="@+id/menu_exit"
+        android:icon="@drawable/ic_baseline_exit_to_app_24"
+        android:title="Thoát"
+        app:showAsAction="withText" />
+</menu>
